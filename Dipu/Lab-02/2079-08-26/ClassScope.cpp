@@ -30,6 +30,7 @@ int main()
     area.getLen();	//Public function with private parameters
     area.getBre();
     area.displayArea();
+    return 0;
 
 
 }
