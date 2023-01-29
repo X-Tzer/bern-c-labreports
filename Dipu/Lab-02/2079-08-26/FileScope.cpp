@@ -4,6 +4,7 @@ int num; //Global variable which can be used throughout the whole program //Glob
 void display();
 int main()
 {
+    cout<<"14. Program to show file scope"<<endl;
     num=5;
     display();
     return 0;

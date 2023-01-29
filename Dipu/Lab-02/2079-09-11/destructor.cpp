@@ -28,6 +28,7 @@ public:
 };
 int main()
 {
+    cout<<"27. Program to demonstrate destructor in C++\n";
     Area Rectangle1(6, 5);
     Rectangle1.display();
     return 0;

@@ -39,6 +39,7 @@ public:
 };
 int main()
 {
+    cout<<"24. Program to implement a class STUDENT with sname, marks array,total\n and tmax as data members and assign,compute\n and display functions to print the result of a student"<<endl;
     Student s;
     s.assign();
     s.display();

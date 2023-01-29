@@ -6,6 +6,7 @@ return x+y+z;
 }
 int main()
 {
+    cout<<"15. Program to show default arguments in an function"<<endl;
     cout << sum(10,15)<< endl;
     cout << sum (10,15,20)<< endl;
     return 0;

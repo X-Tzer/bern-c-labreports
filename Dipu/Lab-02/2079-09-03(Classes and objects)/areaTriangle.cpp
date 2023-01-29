@@ -19,6 +19,7 @@ class Triangle{
     }
 };
 int main(){
+    cout<<"19. Program to find area of triangle using class and objects"<<endl;
     cout<<"Area of a right-angled triangle:"<<endl;
     Triangle t;
     t.getBase();

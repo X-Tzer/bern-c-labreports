@@ -6,6 +6,7 @@ inline float area (float l, float b)
 }
 int main()
 {
+    cout<<"18. Program to find area of a rectangle using Inline Function"<<endl;
     float len, bre, a;
     cout << "Enter the length and breadth of the rectangle:"<< endl;
     cin>> len >>bre;

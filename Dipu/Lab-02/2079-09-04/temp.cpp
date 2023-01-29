@@ -80,6 +80,8 @@ public:
 int main()
 {
 	// shallow copyconstructor
+	cout << "22. Program to demonstrate shallow copy and deep copy constructor" << endl;
+	cout << "Shallowcopy:" << endl;
 	copyconstructor c1("copy");
 	copyconstructor c2 = c1;
 	c1.display();
@@ -87,7 +89,7 @@ int main()
 	c1.concatenate("constructor");
 	c1.display();
 	c2.display();
-
+	cout << "Deepcopy: " << endl;
 	// deepcopy constructor
 	//  Object of class box
 	box first;

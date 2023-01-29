@@ -19,6 +19,7 @@ class A{
 int A::b=0;
 int main()
 {
+    cout<<"30. Program to demonstrate static data  members in c++\n";
     A obj1(10,20),obj2(20,30);
     obj1.show();
     obj2.show();

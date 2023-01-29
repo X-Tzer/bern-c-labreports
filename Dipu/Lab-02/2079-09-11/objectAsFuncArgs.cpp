@@ -20,6 +20,7 @@ public:
 
 int main()
 {
+    cout<<"28. Program to show objects as function arguments\n";
     rect r1;
     r1.set(10, 5);
     r1.arearect(r1);

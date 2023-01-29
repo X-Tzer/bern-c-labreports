@@ -48,16 +48,17 @@ public:
 
 int main()
 {
+    cout<<"21. Program to demonstrate default,parameterized and copy constructor"<<endl;
     // default constructor
     cube c;
-    cout << c.side << endl;
+    cout << "Default: "<<c.side << endl;
     // parameterized constructor
     Employee e = Employee("dipu");
-    cout << e.giveName() << endl;
+    cout <<"Parameterized: "<< e.giveName() << endl;
     // copyconstructor
     copyConst c1 = copyConst(20, 30);
     copyConst c2 = c1;
-    cout << "Original: " << endl;
+    cout << "Copy Constructor\nOriginal: " << endl;
     c1.display();
     cout << "Copied: " << endl;
     c2.display();

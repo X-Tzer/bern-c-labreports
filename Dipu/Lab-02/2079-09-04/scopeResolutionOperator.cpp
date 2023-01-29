@@ -13,6 +13,7 @@ int cube::getVolume()
 }
 int main()
 {
+   cout<<"23. Program to demonstrate scope resolution Operator"<<endl;
    cube c;
    cout << "Enter side: ";
    cin >> c.side;

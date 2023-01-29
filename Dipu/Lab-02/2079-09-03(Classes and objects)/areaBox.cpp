@@ -26,6 +26,7 @@ class Box{
     }
 };
 int main(){
+    cout<<"20.Program to find area of three boxes using class and objects\n";
     Box b[3];
     int i;
     for(i=0;i<3;i++){

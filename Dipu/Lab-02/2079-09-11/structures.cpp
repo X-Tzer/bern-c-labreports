@@ -6,6 +6,7 @@ struct Employee{
 
 };
 int main(){
+    cout<<"20. Program to demonstrate structures in C++\n";
     struct Employee e1;
     cout<<"Enter the name:";
     cin>>e1.name;
