@@ -8,7 +8,10 @@ int main()
     double number;
     number = x - y; // implicit type conversion.
     cout << "Implicit type conversion : " << number << endl;
-    y = (double)x / 2; // explicit type conversion.
-    cout << "Explicit type conversion : " << y;
+    y = double(x) / 2; // explicit type conversion.
+    cout << "Explicit type conversion : " << y << endl;
+    int ch = 10;
+    cout << float(ch) / 3 << endl;
+    cout << ch / 3;
     return 0;
 }

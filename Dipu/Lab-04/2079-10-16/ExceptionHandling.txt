@@ -1,0 +1,18 @@
+Exception Handling:
+Exception Handling is the process of handling errors and exceptions in such a way
+that they do not hinder normal execution of the system
+Example:
+User divides a number by zero this compile successfully but on run time error occurs.
+To avoid this we will introduce exception handling techniques.
+Error Handling is done using three keywords.
+1.try
+2.catch
+3.throw
+Syntax:
+try{
+    //code
+    throw parameter;
+    }
+    catch(exception_name ex ){
+        //code to handle exceptions
+    }

@@ -6,8 +6,9 @@ using namespace std;
 int main ()
 {
     cout<<"5. Program to illustrate setw, setprecision and setfill." <<endl;
-     float a = 3.33333333;
+     float a = 3.33333333,c=8.88888;
      int b = 3333;
+     cout<<setw(11)<<"Kantipur"<<endl<<"Engineering"<<endl<<"College"<<endl;
      cout << "Before using setw:" << endl;
      cout << a << endl;
      cout << "After using setw:" << endl;
@@ -15,7 +16,7 @@ int main ()
      cout << "Before using setprecision:" << endl;
      cout << a << endl;
      cout << "After using setprecision:" << endl;
-     cout << setprecision(3) << a << endl;
+     cout << setprecision(3) << a << endl<<c<<endl;
      cout << "Before setting the fill char: \n"
           << setw(10);
      cout << b << endl;
