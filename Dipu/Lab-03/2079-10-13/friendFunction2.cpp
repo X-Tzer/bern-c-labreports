@@ -15,9 +15,7 @@ private:
 class class_B
 {
 public:
-    class_B() : num_B(7)
-    {
-    }
+    class_B() : num_B(7) {}
 
 private:
     int num_B;
